@@ -1,0 +1,77 @@
+baseurl = "http://colomr.dev/"
+title = "Preventa Técnica | Google Cloud Platform | GCP"
+theme = "hugo-coder"
+languagecode = "es"
+defaultcontentlanguage = "es"
+paginate = 20
+
+# Google Analytics tracking ID
+googleAnalytics = 'G-Y0X8CR726Y'
+
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Francisco Colomer"
+  info = "Google Cloud Presales Engineer"
+  description = "Preventa técnica de Google Cloud Platform (GCP)"
+  keywords = "preventa, preventa técnica, presales, presales engineer, google, google cloud, gcp, google cloud plaform. sales, ventas"
+  avatarurl = "/images/avatar.png"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/images/favicon-32x32.png"
+  favicon_16 = "/images/favicon-16x16.png"
+  
+  since = 2023
+  enableTwemoji = true
+
+  
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  contentDir = "content"
+  tag = "tags"
+  author = "authors"
+  collection = "collections"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/colomr-dev"
+[[params.social]]
+  name = "Slack"
+  icon = "fa fa-slack fa-2x"
+  weight = 4
+  url = "@colomr"
+[[params.social]]
+  name = "Google Cloud"
+  icon = "fa fa-google fa-2x"
+  weight = 3
+  url = "https://bit.ly/g-colomr"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/colomr-cv/"
+
+# Menu links
+[[menu.main]]
+  name = "Bio"
+  weight = 1
+  url = "https://mnf.red/fcolomer"
+  target = "_blank"
+[[menu.main]]
+  name = "Docs"
+  weight = 2
+  url = "https://docs.preventa.tech"
+
+
