@@ -1,2 +1,2 @@
 # colomr.dev
-Personal landing page with Hugo
+Personal landing page made with Hugo 
