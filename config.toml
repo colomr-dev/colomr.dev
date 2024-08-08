@@ -67,11 +67,12 @@ style = "github-dark"
 [[menu.main]]
   name = "Bio"
   weight = 1
-  url = "https://mnf.red/fcolomer"
+  url = "https://mnf.red/colomr"
   target = "_blank"
 [[menu.main]]
   name = "Docs"
   weight = 2
-  url = "https://docs.preventa.tech"
+  url = "https://docs.colomr.dev"
+
 
 
