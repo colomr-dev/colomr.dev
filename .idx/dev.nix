@@ -5,7 +5,6 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.nodejs_22,
     pkgs.hugo
   ];
 
@@ -13,6 +12,10 @@
   ##env = {
   #  SOME_ENV_VAR = "hello";
   #};
+
+  environment.systemPackages = [
+    pkgs.nodejs_22
+  ];
 
   # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
   #idx.extensions = [
