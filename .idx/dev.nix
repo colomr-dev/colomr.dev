@@ -8,3 +8,5 @@
     pkgs.nodejs_18
     pkgs.hugo
   ];
+
+}
