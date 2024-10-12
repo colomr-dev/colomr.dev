@@ -48,20 +48,21 @@ style = "github-dark"
   weight = 1
   url = "https://github.com/colomr-dev"
 [[params.social]]
-  name = "Google for Developers"
-  icon = "fa fa-code fa-2x"
-  weight = 4
-  url = "https://g.dev/colomr"
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/colomr-cv/"
 [[params.social]]
   name = "Google Cloud"
   icon = "fa fa-google fa-2x"
   weight = 3
   url = "https://bit.ly/g-colomr"
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 2
-  url = "https://www.linkedin.com/in/colomr-cv/"
+  name = "Google for Developers"
+  icon = "fa fa-code fa-2x"
+  weight = 4
+  url = "https://g.dev/colomr"
+
   
 
 # Menu links
