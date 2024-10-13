@@ -19,7 +19,7 @@
           "server"
           "--"
           "--port"
-          "1313"
+          "$PORT"
           "--host"
           "0.0.0.0"
           "--disable-host-check"
