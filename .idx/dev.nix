@@ -8,19 +8,6 @@
     pkgs.hugo
   ];
 
-  # Sets environment variables in the workspace
-  ##env = {
-  #  SOME_ENV_VAR = "hello";
-  #};
-
-  environment.systemPackages = [
-    pkgs.nodejs_22
-  ];
-
-  # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
-  #idx.extensions = [
-  #  "angular.ng-template"
-  #];
 
   # Enable previews and customize configuration
   idx.previews = {
@@ -28,9 +15,8 @@
     previews = {
       web = {
         command = [
-          "npm"
-          "run"
-          "start"
+          "hugo"
+          "server"
           "--"
           "--port"
           "$PORT"
