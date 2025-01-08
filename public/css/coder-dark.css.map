@@ -4,15 +4,15 @@
 	"sourceRoot": "/home/fcolomer/repos/colomr.dev",
 	"sources": [
 		"themes/hugo-coder/assets/scss/coder-dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_variables.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_base_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_content_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_notices_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_navigation_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_tabs_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_taxonomies_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_footer_dark.scss",
-		"../../../../../../home/fcolomer/repos/colomr.dev/themes/hugo-coder/assets/scss/_float_dark.scss"
+		"themes/hugo-coder/assets/scss/_variables.scss",
+		"themes/hugo-coder/assets/scss/_base_dark.scss",
+		"themes/hugo-coder/assets/scss/_content_dark.scss",
+		"themes/hugo-coder/assets/scss/_notices_dark.scss",
+		"themes/hugo-coder/assets/scss/_navigation_dark.scss",
+		"themes/hugo-coder/assets/scss/_tabs_dark.scss",
+		"themes/hugo-coder/assets/scss/_taxonomies_dark.scss",
+		"themes/hugo-coder/assets/scss/_footer_dark.scss",
+		"themes/hugo-coder/assets/scss/_float_dark.scss"
 	],
 	"sourcesContent": [
 		"@import \"variables\";\r\n@import \"base_dark\";\r\n@import \"content_dark\";\r\n@import \"notices_dark\";\r\n@import \"navigation_dark\";\r\n@import \"tabs_dark\";\r\n@import \"taxonomies_dark\";\r\n@import \"footer_dark\";\r\n@import \"float_dark\";\r\n",
