@@ -1,76 +1,46 @@
-# colomr.dev
+# Landing Page Personal
 
-Personal landing page built with Hugo Framework and deployed on Firebase. A simple and lightweight solution for maintaining my professional online presence.
+Este es mi sitio web personal construido con Hugo Framework. Es una página web estática que sirve como punto central para acceder a mis redes sociales y biografía profesional.
 
-## Purpose
+## Propósito
 
-This site serves as a central hub for:
-- Professional biography
-- Social media links
-- Contact information
-- Professional journey overview
+- Proporcionar un punto de entrada único a mi presencia profesional online
+- Mantener una biografía profesional actualizada
+- Facilitar el acceso a mis redes sociales
+- Servir como sandbox para pruebas en Google Cloud Platform
 
-## Why Hugo Framework
+## ¿Por qué Hugo Framework?
 
-After maintaining a WordPress site, I switched to Hugo for:
-- Static site generation
-- Lightweight and fast performance
-- Low maintenance requirements
-- Simple deployment process
+- Generador de sitios estáticos ligero y rápido
+- Mantenimiento simple comparado con CMS tradicionales como WordPress
+- Excelente rendimiento y tiempos de carga
+- Gran comunidad y temas disponibles
 
-## Features
+## Características
 
-- Minimalist design
-- Social media integration
-- Professional biography
-- Responsive layout
-- Fast loading times
+- Diseño minimalista y responsivo
+- Biografía profesional
+- Enlaces a redes sociales
+- Optimizado para SEO
+- Tiempo de carga rápido
 
-## Installation and Development Local
+## Instalación Local
 
-1. Clone the repository
-```bash
-git clone https://github.com/colomr-dev/colomr.dev.git
-```
+1. Instalar Hugo Framework
+2. Clonar este repositorio
+3. Ejecutar `hugo server -D`
+4. Acceder a `http://localhost:1313`
 
-2. Install Hugo
-```bash
-# On Ubuntu
-sudo apt-get install hugo
+## Despliegue
 
-# On macOS
-brew install hugo
-```
+Este sitio está desplegado en Firebase:
 
-3. Run local development server
-```bash
-hugo server -D
-```
+1. Instalar Firebase CLI
+2. Ejecutar `hugo` para construir el sitio
+3. Ejecutar `firebase deploy` para desplegar
 
-## Deployment
+## Recursos Adicionales
 
-This site is deployed on Firebase using the free tier plan.
-
-1. Install Firebase CLI
-```bash
-npm install -g firebase-tools
-```
-
-2. Login to Firebase
-```bash
-firebase login
-```
-
-3. Build the site
-```bash
-hugo
-```
-
-4. Deploy to Firebase
-```bash
-firebase deploy
-```
-
-## Resources
-
-Visit: [colomr.dev](https://colomr.dev)
+- [Documentación de Hugo](https://gohugo.io/documentation/)
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+- [Hugo Themes](https://themes.gohugo.io/)
